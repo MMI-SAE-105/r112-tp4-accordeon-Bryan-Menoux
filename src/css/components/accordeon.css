@@ -4,23 +4,5 @@
 
 .accordeon {
   display: flex;
-}
-
-details {
-  width: 100px;
-  display: flex;
-  transition: width 0.6s;
-}
-
-details[open] {
-  display: flex;
-  width: 300px;
-}
-summary {
-  list-style-type: none;
-}
-
-details div {
-  min-width: 200px;
-  padding: 10px;
+  flex-direction: column;
 }
