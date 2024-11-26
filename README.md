@@ -1,5 +1,5 @@
-- nom :
-- prénom :
+- nom : Menoux
+- prénom : Bryan
 - URL Netlify :
 
 # Travail
@@ -14,11 +14,11 @@ Pour styler l'accordéon ouvert, utilisez l'attribut `open` (entre crochet en CS
 
 ```css
 details {
-/* fermé et ouvert */
+  /* fermé et ouvert */
 }
 
 details[open] {
-/* ouvert */
+  /* ouvert */
 }
 ```
 
